@@ -29,9 +29,16 @@ public class LandingPageTest extends base {
 		String pageContent=lp.getPageContent();
 		Assert.assertEquals(pageContent, "Featured Courses");
 	}
-
 	
 	@Test(priority=1)
+	public void validatePracticcceTest()
+	{
+		
+		System.out.println("Hi");
+	}
+
+	
+	@Test(priority=2)
 	public void validatePracticeTest()
 	{
 		
