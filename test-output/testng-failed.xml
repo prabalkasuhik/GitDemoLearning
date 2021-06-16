@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TestCase.listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCase.LandingPageTest">
+        <methods>
+          <include name="bowserInitilze"/>
+        </methods>
+      </class> <!-- TestCase.LandingPageTest -->
+      <class name="TestCase.PracticePageTest">
+        <methods>
+          <include name="validateLoginTest"/>
+          <include name="bowserInitilze"/>
+          <include name="validateCenterHeaderTest"/>
+        </methods>
+      </class> <!-- TestCase.PracticePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
